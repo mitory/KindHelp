@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;500;700;800&display=swap');
+
+:root {
+	--title-size: 22px;
+	--subtitle-size: 18px;
+	--text-size: 14px;
+	--boldtext-size: 15px;
+	--blue-color: #00B8FF;
+	--darkblue-color: #3C80A7;
+	--red-color: #F54486;
+	--gray-color: #8785A2;
+	--white-color: #F6FCFF;
+}
+
+* {
+	font-family: Montserrat;
+	font-size: var(--text-size);
+}
+
+body {
+	background-color: #EBF9FF;
+	line-height: 150%;
+	font-weight: 500;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 120%;
+	font-size: var(--title-size);
+	color: var(--blue-color);
+	letter-spacing: 4.4px;
+}
+
+h3 {
+	font-size: var(--title-size);
+	color: var(--red-color);
+	font-weight: 700;
+}
+
+h4 {
+	font-size: var(--subtitle-size);
+	color: var(--red-color);
+}
+
+h5 {
+	font-size: var(--boldtext-size);
+	color: var(--gray-color);
+	font-weight: 700;
+}
+
+/*section {
+	min-height: 100vh;
+}*/
+
+.container {
+	padding: 0 15px;
+}
+
+@media (min-width: 575.98px){
+	.container {
+		max-width: 540px;
+		margin: auto;
+		padding: 0;
+	}
+}
+
+@media (min-width: 767.98px){
+	.container {
+		max-width: 720px;	
+	}
+}
+
+@media (min-width: 991.98px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1199.98px){
+	.container {
+		max-width: 1140px;
+	}
+}
