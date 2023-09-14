@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var body = document.body;
 
   window.addEventListener('scroll', function() {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 80) {
       document.querySelector('.logo_in_about').classList.add('logo_in_about__resize');
 
       header.classList.add('header_fixed');

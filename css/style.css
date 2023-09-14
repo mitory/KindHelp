@@ -9,6 +9,7 @@
 	margin-bottom: 37px;
 	z-index: 100;
 	width: 100%;
+	transition: .10s;
 }
 
 .header_fixed {
@@ -18,7 +19,7 @@
 	background-color: #EAF9FF;
 	box-shadow: 0px -4px 0px 0px #00B8FF inset;
 	height: 90px;
-	transition: .5s;
+	transition: .10s;
 }
 
 .header_fixed .header__content {
@@ -45,12 +46,13 @@
 .logo_in_about {
 	width: 331.53px; 
 	height: 323px;
+	transition: .5s;
 }
 
 .logo_in_about__resize {
 	width: 100px; 
 	height: 100px;
-	transition: .3s;
+	transition: .5s;
 }
 
 .title {
