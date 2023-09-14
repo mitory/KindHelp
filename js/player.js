@@ -3,10 +3,10 @@ const audioPlayer1 = document.querySelector(".about-method.audio-player");
 const audioPlayer2 = document.querySelector(".about-videomedit.audio-player");
 
 const audio1 = new Audio(
-  "./src/audio/about_method.mp3"
+  "./src/audio/about_method.m4a"
 );
 const audio2 = new Audio(
-  "./src/audio/about_videomedit.mp3"
+  "./src/audio/about_videomedit.m4a"
 );
 
 
