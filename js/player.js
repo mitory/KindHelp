@@ -70,3 +70,29 @@ playBtn2.addEventListener(
   },
   false
 );
+
+
+const video = document.querySelector('.video');
+const video_btn = document.querySelector('.play_video__btn')
+const video_btn__wrapper = document.querySelector('.play_video')
+
+video_btn.onclick = function() {
+  video.play();
+  video.controls = true;
+  video_btn__wrapper.classList.add('hide');
+}
+
+video.onclick = function() {
+  if(!video.paused) {
+    video.pause();
+    video_btn__wrapper.classList.remove('hide');
+    video.controls = false;
+  }
+}
+
+video.addEventListener('ended', videoHandler, false);
+
+function videoHandler() {
+  video_btn__wrapper.classList.remove('hide');
+  video.controls = false;
+}
