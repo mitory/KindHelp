@@ -4,7 +4,7 @@
 
 .header {
 	background: url('../src/img/backgrounds/header_element.svg') right top no-repeat;
-	height: 100px;
+	height: 6.25rem;
 	margin-right: 22px;
 	margin-bottom: 2.31rem;
 	z-index: 100;
@@ -18,12 +18,12 @@
 	top: 0;
 	background-color: #EAF9FF;
 	box-shadow: 0px -4px 0px 0px #00B8FF inset;
-	height: 90px;
+	height: 5.625rem;
 	transition: .10s;
 }
 
 .header_fixed .header__content {
-	padding-top: 5px;
+	padding-top: 0.3125rem;
 }
 
 .header__content {
@@ -50,8 +50,8 @@
 }
 
 .logo_in_about__resize {
-	width: 100px; 
-	height: 100px;
+	width: 6.25rem; 
+	height: 6.25rem;
 	transition: .5s;
 }
 
@@ -111,6 +111,14 @@
 	width: 20rem;
 	text-align: center;
 	color: var(--gray-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.effect-item__text-wrap {
+	margin-bottom: 1.44rem;
 }
 
 .effect-item__title {
@@ -119,12 +127,12 @@
 }
 .effect-item__text {
 	font-weight: 400;
-	margin-bottom: 1.44rem;
+	
 }
 
-.effects__item:nth-last-child(1) .effect-item__text{
+/*.effects__item:nth-last-child(1) .effect-item__text{
 	margin-bottom: 2.75rem;
-}
+}*/
 .effect-item__img {
 	width: 11.8125rem;
 	height: 11.8125rem;
@@ -148,6 +156,13 @@
 .speaker {
 	width: 30.75rem;
 /*	margin-left: 1.5rem;*/
+}
+
+.speaker-mobile {
+	display: none;
+}
+.speaker-help-mobile {
+	display: none;
 }
 
 .speaker__info {
@@ -209,7 +224,7 @@
 }
 
 .about-method.toggle-play {
-	background: url('../src/img/elements/play_audio1.svg') no-repeat;
+	background: url('../src/img/elements/play_audio1.svg') center / contain no-repeat;
 	width: 2.10938rem;
 	height: 2.10938rem;
 }
@@ -279,7 +294,7 @@
 }
 
 .about-videomedit.toggle-play {
-	background: url('../src/img/elements/play_audio2.svg') no-repeat;
+	background: url('../src/img/elements/play_audio2.svg') center / contain no-repeat;
 	width: 2.10938rem;
 	height: 2.10938rem;
 }
@@ -332,6 +347,8 @@
 
 .play_video__btn {
 	align-self: center;
+	width: 7.5rem;
+	height: 7.5rem;
 }
 
 .footer {
@@ -340,9 +357,6 @@
 
 .footer__content {
 	padding-top: 1.875rem;
-}
-
-.footer__content {
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 3.125rem;
