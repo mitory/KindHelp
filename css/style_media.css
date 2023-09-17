@@ -31,6 +31,9 @@
 		width: 10rem;
 		height: 10rem;
 	}
+	body {
+		line-height: 140%;
+	}
 }
 
 @media (max-width: 767.98px){
@@ -82,6 +85,9 @@
 	.videomedit__content {
 		height: 30rem;
 	}
+	body {
+		line-height: 130%;
+	}
 }
 
 
@@ -122,6 +128,9 @@
 	.group {
 		width: 15rem;
 	}
+	body {
+		line-height: 120%;
+	}
 }
 
 @media (max-width: 499px) {
@@ -131,6 +140,14 @@
 	.title {
 		margin-right: 4rem;
 	}
+	.members__galerey {
+		flex-direction: column;
+		align-items: center;
+	}
+	.members__img {
+		width: 17.7rem;
+		height: 10rem;
+	}
 }
 
 @media (max-width: 430px) {
@@ -139,10 +156,6 @@
 	}
 	.title {
 		margin-right: 2rem;
-	}
-	.members__img {
-		width: 8.85rem;
-		height: 5rem;
 	}
 	.effect-item__img {
 		width: 8rem;
@@ -178,6 +191,7 @@
 		flex-direction: row-reverse;
 		gap: 1rem;
 		width: 80vw;
+		min-height: 10rem;
 	}
 	.speakers__title {
 		text-align: center;
@@ -213,14 +227,6 @@
 	.group {
 		width: 90vw;
 		margin-bottom: 2rem;
-	}
-	.members__galerey {
-		flex-direction: column;
-		align-items: center;
-	}
-	.members__img {
-		width: 17.7rem;
-		height: 10rem;
 	}
 	.videomedit__content {
 		height: 25rem;
