@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 767.98px){
+	.header__content {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
 	.logo_in_about {
 		display: none;
 	}
@@ -196,9 +200,6 @@
 	.speakers__title {
 		text-align: center;
 	}
-}
-
-@media (max-width: 370px) {
 	.header {
 		margin-right: 0;
 		height: 12rem;
@@ -221,6 +222,9 @@
 	.header_fixed .header__content {
 		padding-top: 0.5rem;
 	}
+}
+
+@media (max-width: 370px) {
 	.groups__list {
 		flex-direction: column;
 	}
