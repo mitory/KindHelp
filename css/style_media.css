@@ -1,0 +1,30 @@
+@media (max-width: 1199.98px){
+	.speaker__info {
+		/*flex-direction: column-reverse;
+		align-items: center;*/
+	}
+	.speaker__text {
+		width: 25rem;
+/*		text-align: center;*/
+	}
+	.speaker_img {
+		width: 11rem;
+		height: 14.9rem;
+	}
+	.speaker {
+		width: 25rem;
+	}
+	.speaker-help {
+		width: 25rem;
+	}
+	.members__img {
+		width: 17.7rem;
+		height: 10rem;
+	}
+}
+
+@media (max-width: 991.98px) {
+	html {
+		font-size: 80%;
+	}
+}

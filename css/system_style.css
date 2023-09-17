@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;500;700;800&display=swap');
 
 :root {
-	--title-size: 22px;
-	--subtitle-size: 18px;
-	--text-size: 14px;
-	--boldtext-size: 15px;
+	--title-size: 1.375rem;
+	--subtitle-size: 1.125rem;;
+	--text-size: 0.875rem;
+	--boldtext-size: 0.9375rem;
 	--blue-color: #00B8FF;
 	--darkblue-color: #3C80A7;
 	--red-color: #F54486;
@@ -15,6 +15,10 @@
 * {
 	font-family: Montserrat;
 	font-size: var(--text-size);
+}
+
+html {
+	font-size: 100%;
 }
 
 body {
@@ -29,7 +33,7 @@ h1, h2 {
 	line-height: 120%;
 	font-size: var(--title-size);
 	color: var(--blue-color);
-	letter-spacing: 4.4px;
+	letter-spacing: 0.275rem;
 }
 
 h3 {
