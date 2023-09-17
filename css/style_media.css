@@ -41,6 +41,9 @@
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 	}
+	.about__text {
+		margin-left: 1rem;
+	}
 	.logo_in_about {
 		display: none;
 	}
