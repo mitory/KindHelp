@@ -130,9 +130,6 @@
 	
 }
 
-/*.effects__item:nth-last-child(1) .effect-item__text{
-	margin-bottom: 2.75rem;
-}*/
 .effect-item__img {
 	width: 11.8125rem;
 	height: 11.8125rem;
@@ -140,11 +137,6 @@
 
 .grad_end_first_block {
 	background: linear-gradient(180deg, rgba(235, 249, 255, 0.00) 0%, #EBF9FF 100%);
-}
-
-.speakers {
-	
-
 }
 
 .speakers__list {
@@ -155,7 +147,6 @@
 
 .speaker {
 	width: 30.75rem;
-/*	margin-left: 1.5rem;*/
 }
 
 .speaker-mobile {
@@ -172,7 +163,6 @@
 
 .speaker__text {
 	width: 14.625rem;
-/*	margin: auto 0;*/
 	margin-right: 0.72rem;
 }
 
@@ -196,7 +186,6 @@
 
 .speaker-help {
 	width: 30.75rem;
-/*	margin-left: 35px;*/
 }
 
 .speaker-help__text {
@@ -279,9 +268,6 @@
 .members__img {
 	width: 20rem;
 	height: 11.25rem;
-}
-
-.videomedit {
 }
 
 .videomedit__header {
@@ -387,8 +373,3 @@
 	width: 1.625rem;
 	height: 1.625rem;
 }
-
-
-
-
-
