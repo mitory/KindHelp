@@ -34,6 +34,16 @@
 	body {
 		line-height: 140%;
 	}
+	.header_fixed {
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+		height: 7rem;
+	}
+	.header_fixed .header__content {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+/*	ЛОГО ИН ХЕДЕР*/
 }
 
 @media (max-width: 767.98px){
@@ -205,25 +215,22 @@
 	}
 	.header {
 		margin-right: 0;
-		height: 12rem;
+/*		height: 12rem;*/
 	}
 	.header__content {
-		padding-top: 0;
-		flex-direction: column;
-		align-items: center;
+/*		padding-top: 0;*/
+		/*flex-direction: column;
+		align-items: center;*/
 /*		text-align: center;*/
 	}
-	.title {
-		margin-right: 0;
-	}
 	.logo_in_header {
-		margin-right: 0;
+		margin-right: 1rem;
 	}
 	.header_fixed {
-		height: 15rem;
+/*		height: 15rem;*/
 	}
 	.header_fixed .header__content {
-		padding-top: 0.5rem;
+/*		padding-top: 0.5rem;*/
 	}
 }
 
@@ -237,6 +244,13 @@
 	}
 	.videomedit__content {
 		height: 25rem;
+	}
+	:root {
+		--title-size: 1.1rem;
+		--subtitle-size: 1rem;;
+	}
+	.title {
+		margin-right: 0.5rem;
 	}
 }
 
