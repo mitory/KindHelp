@@ -217,6 +217,7 @@
 
 .toggle-play:hover {
 	cursor: pointer;
+	opacity: 0.8;
 }
 
 .toggle-play {
@@ -343,6 +344,7 @@
 
 .play_video__btn:hover {
 	cursor: pointer;
+	opacity: 0.8;
 }
 
 .play_video__btn {
